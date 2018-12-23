@@ -1,0 +1,7 @@
+C:\Users\natta\source\repos\CD\CD\bin\Debug\CD.exe.config
+C:\Users\natta\source\repos\CD\CD\bin\Debug\CD.exe
+C:\Users\natta\source\repos\CD\CD\bin\Debug\CD.pdb
+C:\Users\natta\source\repos\CD\CD\obj\Debug\CD.csprojAssemblyReference.cache
+C:\Users\natta\source\repos\CD\CD\obj\Debug\CD.csproj.CoreCompileInputs.cache
+C:\Users\natta\source\repos\CD\CD\obj\Debug\CD.exe
+C:\Users\natta\source\repos\CD\CD\obj\Debug\CD.pdb

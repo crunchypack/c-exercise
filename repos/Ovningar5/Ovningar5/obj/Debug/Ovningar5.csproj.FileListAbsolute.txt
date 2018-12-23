@@ -1,0 +1,7 @@
+C:\Users\natta\source\repos\Ovningar5\Ovningar5\bin\Debug\Ovningar5.exe.config
+C:\Users\natta\source\repos\Ovningar5\Ovningar5\bin\Debug\Ovningar5.exe
+C:\Users\natta\source\repos\Ovningar5\Ovningar5\bin\Debug\Ovningar5.pdb
+C:\Users\natta\source\repos\Ovningar5\Ovningar5\obj\Debug\Ovningar5.csproj.CoreCompileInputs.cache
+C:\Users\natta\source\repos\Ovningar5\Ovningar5\obj\Debug\Ovningar5.exe
+C:\Users\natta\source\repos\Ovningar5\Ovningar5\obj\Debug\Ovningar5.pdb
+C:\Users\natta\source\repos\Ovningar5\Ovningar5\obj\Debug\Ovningar5.csprojAssemblyReference.cache

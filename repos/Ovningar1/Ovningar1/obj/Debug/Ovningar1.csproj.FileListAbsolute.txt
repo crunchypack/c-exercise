@@ -1,0 +1,7 @@
+C:\Users\natta\source\repos\Ovningar1\Ovningar1\bin\Debug\Ovningar1.exe.config
+C:\Users\natta\source\repos\Ovningar1\Ovningar1\bin\Debug\Ovningar1.exe
+C:\Users\natta\source\repos\Ovningar1\Ovningar1\bin\Debug\Ovningar1.pdb
+C:\Users\natta\source\repos\Ovningar1\Ovningar1\obj\Debug\Ovningar1.csprojAssemblyReference.cache
+C:\Users\natta\source\repos\Ovningar1\Ovningar1\obj\Debug\Ovningar1.csproj.CoreCompileInputs.cache
+C:\Users\natta\source\repos\Ovningar1\Ovningar1\obj\Debug\Ovningar1.exe
+C:\Users\natta\source\repos\Ovningar1\Ovningar1\obj\Debug\Ovningar1.pdb

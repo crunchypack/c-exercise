@@ -1,0 +1,7 @@
+C:\Users\natta\source\repos\Account\Account\bin\Debug\Account.exe.config
+C:\Users\natta\source\repos\Account\Account\bin\Debug\Account.exe
+C:\Users\natta\source\repos\Account\Account\bin\Debug\Account.pdb
+C:\Users\natta\source\repos\Account\Account\obj\Debug\Account.csprojAssemblyReference.cache
+C:\Users\natta\source\repos\Account\Account\obj\Debug\Account.csproj.CoreCompileInputs.cache
+C:\Users\natta\source\repos\Account\Account\obj\Debug\Account.exe
+C:\Users\natta\source\repos\Account\Account\obj\Debug\Account.pdb

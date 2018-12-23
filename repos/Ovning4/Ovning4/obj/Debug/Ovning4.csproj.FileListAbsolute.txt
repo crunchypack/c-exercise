@@ -1,0 +1,7 @@
+C:\Users\natta\source\repos\Ovning4\Ovning4\bin\Debug\Ovning4.exe.config
+C:\Users\natta\source\repos\Ovning4\Ovning4\bin\Debug\Ovning4.exe
+C:\Users\natta\source\repos\Ovning4\Ovning4\bin\Debug\Ovning4.pdb
+C:\Users\natta\source\repos\Ovning4\Ovning4\obj\Debug\Ovning4.csprojAssemblyReference.cache
+C:\Users\natta\source\repos\Ovning4\Ovning4\obj\Debug\Ovning4.csproj.CoreCompileInputs.cache
+C:\Users\natta\source\repos\Ovning4\Ovning4\obj\Debug\Ovning4.exe
+C:\Users\natta\source\repos\Ovning4\Ovning4\obj\Debug\Ovning4.pdb

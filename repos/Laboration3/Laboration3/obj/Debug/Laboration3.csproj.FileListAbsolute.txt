@@ -1,0 +1,7 @@
+C:\Users\natta\source\repos\Laboration3\Laboration3\bin\Debug\Laboration3.exe.config
+C:\Users\natta\source\repos\Laboration3\Laboration3\bin\Debug\Laboration3.exe
+C:\Users\natta\source\repos\Laboration3\Laboration3\bin\Debug\Laboration3.pdb
+C:\Users\natta\source\repos\Laboration3\Laboration3\obj\Debug\Laboration3.csprojAssemblyReference.cache
+C:\Users\natta\source\repos\Laboration3\Laboration3\obj\Debug\Laboration3.csproj.CoreCompileInputs.cache
+C:\Users\natta\source\repos\Laboration3\Laboration3\obj\Debug\Laboration3.exe
+C:\Users\natta\source\repos\Laboration3\Laboration3\obj\Debug\Laboration3.pdb

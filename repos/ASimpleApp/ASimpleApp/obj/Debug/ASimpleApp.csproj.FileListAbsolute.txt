@@ -1,0 +1,10 @@
+C:\Users\natta\source\repos\ASimpleApp\ASimpleApp\bin\Debug\ASimpleApp.exe.config
+C:\Users\natta\source\repos\ASimpleApp\ASimpleApp\bin\Debug\ASimpleApp.exe
+C:\Users\natta\source\repos\ASimpleApp\ASimpleApp\bin\Debug\ASimpleApp.pdb
+C:\Users\natta\source\repos\ASimpleApp\ASimpleApp\obj\Debug\ASimpleApp.csprojAssemblyReference.cache
+C:\Users\natta\source\repos\ASimpleApp\ASimpleApp\obj\Debug\ASimpleApp.Form1.resources
+C:\Users\natta\source\repos\ASimpleApp\ASimpleApp\obj\Debug\ASimpleApp.Properties.Resources.resources
+C:\Users\natta\source\repos\ASimpleApp\ASimpleApp\obj\Debug\ASimpleApp.csproj.GenerateResource.cache
+C:\Users\natta\source\repos\ASimpleApp\ASimpleApp\obj\Debug\ASimpleApp.csproj.CoreCompileInputs.cache
+C:\Users\natta\source\repos\ASimpleApp\ASimpleApp\obj\Debug\ASimpleApp.exe
+C:\Users\natta\source\repos\ASimpleApp\ASimpleApp\obj\Debug\ASimpleApp.pdb
