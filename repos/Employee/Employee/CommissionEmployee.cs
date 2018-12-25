@@ -38,7 +38,7 @@ namespace Employee
                 else throw new ArgumentOutOfRangeException("CommissionRate", value, "CommissionRate must be > 0 and < 1");
             }
         }
-        public override decimal Earnings()
+        public override decimal GetPaymentAmount()
         {
             return CommissionRate * GrossSales;
         }

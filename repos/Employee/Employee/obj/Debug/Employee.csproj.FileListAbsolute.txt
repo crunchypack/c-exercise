@@ -5,3 +5,10 @@ C:\Users\natta\source\repos\Employee\Employee\obj\Debug\Employee.csprojAssemblyR
 C:\Users\natta\source\repos\Employee\Employee\obj\Debug\Employee.csproj.CoreCompileInputs.cache
 C:\Users\natta\source\repos\Employee\Employee\obj\Debug\Employee.exe
 C:\Users\natta\source\repos\Employee\Employee\obj\Debug\Employee.pdb
+C:\Users\Simon\Documents\c#\c-exercise\repos\Employee\Employee\bin\Debug\Employee.exe.config
+C:\Users\Simon\Documents\c#\c-exercise\repos\Employee\Employee\bin\Debug\Employee.exe
+C:\Users\Simon\Documents\c#\c-exercise\repos\Employee\Employee\bin\Debug\Employee.pdb
+C:\Users\Simon\Documents\c#\c-exercise\repos\Employee\Employee\obj\Debug\Employee.csprojAssemblyReference.cache
+C:\Users\Simon\Documents\c#\c-exercise\repos\Employee\Employee\obj\Debug\Employee.csproj.CoreCompileInputs.cache
+C:\Users\Simon\Documents\c#\c-exercise\repos\Employee\Employee\obj\Debug\Employee.exe
+C:\Users\Simon\Documents\c#\c-exercise\repos\Employee\Employee\obj\Debug\Employee.pdb

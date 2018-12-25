@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Employee
 {
-    public abstract class Employee
+    public abstract class Employee : IPayable
     {
         public string FirstName { get; private set; }
         public string LastName { get; private set; }
@@ -23,6 +23,6 @@ namespace Employee
             return string.Format("{0} {1}\nSocial security number: {2}",
                 FirstName, LastName, SocialSecurityNumber);
         }
-        public abstract decimal Earnings();
+        public abstract decimal GetPaymentAmount();
     }
 }

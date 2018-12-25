@@ -37,7 +37,7 @@ namespace Employee
                 else throw new ArgumentOutOfRangeException("Hours", value, "Hours must be >= 0 and <= 168");
             }
         }
-        public override decimal Earnings()
+        public override decimal GetPaymentAmount()
         {
             if (Hours <= 40) return Wage * Hours;
             else return (40 * Wage) + ((Hours - 40) * Wage * 1.5M);

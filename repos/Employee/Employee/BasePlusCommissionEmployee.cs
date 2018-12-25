@@ -25,9 +25,9 @@ namespace Employee
                     value, "BaseSalary must be >= 0");
             }
         }
-        public override decimal Earnings()
+        public override decimal GetPaymentAmount()
         {
-            return BaseSalary + base.Earnings();
+            return BaseSalary + base.GetPaymentAmount();
         }
         public override string ToString()
         {

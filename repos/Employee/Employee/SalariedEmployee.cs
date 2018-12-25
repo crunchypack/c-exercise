@@ -23,7 +23,7 @@ namespace Employee
                 else throw new ArgumentOutOfRangeException("WeeklySalary", value, "WeeklySalary must be >= 0");
             }
         }
-        public override decimal Earnings()
+        public override decimal GetPaymentAmount()
         {
             return WeeklySalary;
         }
