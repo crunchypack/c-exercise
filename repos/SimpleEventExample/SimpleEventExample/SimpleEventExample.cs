@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,8 @@ namespace SimpleEventExample
 {
     public partial class SimpleEventExample : Form
     {
+        private MessageBoxIcon icons;
+        private MessageBoxButtons buttonTyp;
         public SimpleEventExample()
         {
             InitializeComponent();
@@ -74,5 +77,72 @@ namespace SimpleEventExample
             outputLabel.Font = new Font(outputLabel.Font,
                 outputLabel.Font.Style ^ FontStyle.Italic);
         }
+
+        private void buttonTyp_CheckedChanged(object sender, EventArgs e)
+        {
+            if (sender == okButton)
+                buttonTyp = MessageBoxButtons.OK;
+            else if (sender == okCancel)
+                buttonTyp = MessageBoxButtons.OKCancel;
+            else if (sender == abortRetry)
+                buttonTyp = MessageBoxButtons.AbortRetryIgnore;
+            else if (sender == yesNoCancel)
+                buttonTyp = MessageBoxButtons.YesNoCancel;
+            else if (sender == yesNo)
+                buttonTyp = MessageBoxButtons.YesNo;
+            else
+                buttonTyp = MessageBoxButtons.RetryCancel;
+            Console.WriteLine(sender);
+        }
+
+        private void icons_Enter(object sender, EventArgs e)
+        {
+            if (sender == radioButton7)
+                icons = MessageBoxIcon.Asterisk;
+            else if (sender == error)
+                icons = MessageBoxIcon.Error;
+            else if (sender == hand)
+                icons = MessageBoxIcon.Exclamation;
+            else if (sender == info)
+                icons = MessageBoxIcon.Hand;
+            else if (sender == question)
+                icons = MessageBoxIcon.Question;
+            else if (sender == stop)
+                icons = MessageBoxIcon.Stop;
+            else
+                icons = MessageBoxIcon.Warning;
+            Console.WriteLine(sender);
+        }
+
+        private void displayB_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show(
+                "This is you ugly Message box,", "Cusom MessageBox", buttonTyp, icons);
+            switch (result)
+            {
+                case DialogResult.OK:
+                    displayLabel.Text = "OK was pressed.";
+                    break;
+                case DialogResult.Cancel:
+                    displayLabel.Text = "Cancel was pressed.";
+                    break;
+                case DialogResult.Abort:
+                    displayLabel.Text = "Abort was pressed.";
+                    break;
+                case DialogResult.Retry:
+                     displayLabel.Text = "Retry was pressed.";
+                     break;
+                case DialogResult.Ignore:
+                     displayLabel.Text = "Ignore was pressed.";
+                     break;
+                case DialogResult.Yes:
+                    displayLabel.Text = "Yes was pressed.";
+                    break;
+                case DialogResult.No:
+                    displayLabel.Text = "No was pressed.";
+                    break;
+            }
+        }
+
     }
 }

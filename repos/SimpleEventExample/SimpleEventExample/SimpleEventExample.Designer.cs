@@ -44,7 +44,27 @@
             this.outputLabel = new System.Windows.Forms.Label();
             this.boldCheck = new System.Windows.Forms.CheckBox();
             this.italicCheck = new System.Windows.Forms.CheckBox();
+            this.buttonType = new System.Windows.Forms.GroupBox();
+            this.yesNoCancel = new System.Windows.Forms.RadioButton();
+            this.yesNo = new System.Windows.Forms.RadioButton();
+            this.retryCancel = new System.Windows.Forms.RadioButton();
+            this.okCancel = new System.Windows.Forms.RadioButton();
+            this.abortRetry = new System.Windows.Forms.RadioButton();
+            this.okButton = new System.Windows.Forms.RadioButton();
+            this.icon = new System.Windows.Forms.GroupBox();
+            this.warning = new System.Windows.Forms.RadioButton();
+            this.stop = new System.Windows.Forms.RadioButton();
+            this.question = new System.Windows.Forms.RadioButton();
+            this.info = new System.Windows.Forms.RadioButton();
+            this.exclamation = new System.Windows.Forms.RadioButton();
+            this.hand = new System.Windows.Forms.RadioButton();
+            this.error = new System.Windows.Forms.RadioButton();
+            this.radioButton7 = new System.Windows.Forms.RadioButton();
+            this.displayB = new System.Windows.Forms.Button();
+            this.displayLabel = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
+            this.buttonType.SuspendLayout();
+            this.icon.SuspendLayout();
             this.SuspendLayout();
             // 
             // displayPassButton
@@ -211,11 +231,233 @@
             this.italicCheck.UseVisualStyleBackColor = true;
             this.italicCheck.CheckedChanged += new System.EventHandler(this.italicCheck_CheckedChanged);
             // 
+            // buttonType
+            // 
+            this.buttonType.Controls.Add(this.yesNoCancel);
+            this.buttonType.Controls.Add(this.yesNo);
+            this.buttonType.Controls.Add(this.retryCancel);
+            this.buttonType.Controls.Add(this.okCancel);
+            this.buttonType.Controls.Add(this.abortRetry);
+            this.buttonType.Controls.Add(this.okButton);
+            this.buttonType.Location = new System.Drawing.Point(401, 40);
+            this.buttonType.Name = "buttonType";
+            this.buttonType.Size = new System.Drawing.Size(204, 286);
+            this.buttonType.TabIndex = 11;
+            this.buttonType.TabStop = false;
+            this.buttonType.Text = "Button Type";
+            // 
+            // yesNoCancel
+            // 
+            this.yesNoCancel.AutoSize = true;
+            this.yesNoCancel.Location = new System.Drawing.Point(22, 117);
+            this.yesNoCancel.Name = "yesNoCancel";
+            this.yesNoCancel.Size = new System.Drawing.Size(94, 19);
+            this.yesNoCancel.TabIndex = 5;
+            this.yesNoCancel.TabStop = true;
+            this.yesNoCancel.Text = "YesNoCancel";
+            this.yesNoCancel.UseVisualStyleBackColor = true;
+            this.yesNoCancel.CheckedChanged += new System.EventHandler(this.buttonTyp_CheckedChanged);
+            // 
+            // yesNo
+            // 
+            this.yesNo.AutoSize = true;
+            this.yesNo.Location = new System.Drawing.Point(22, 142);
+            this.yesNo.Name = "yesNo";
+            this.yesNo.Size = new System.Drawing.Size(58, 19);
+            this.yesNo.TabIndex = 4;
+            this.yesNo.TabStop = true;
+            this.yesNo.Text = "YesNo";
+            this.yesNo.UseVisualStyleBackColor = true;
+            this.yesNo.CheckedChanged += new System.EventHandler(this.buttonTyp_CheckedChanged);
+            // 
+            // retryCancel
+            // 
+            this.retryCancel.AutoSize = true;
+            this.retryCancel.Location = new System.Drawing.Point(22, 170);
+            this.retryCancel.Name = "retryCancel";
+            this.retryCancel.Size = new System.Drawing.Size(88, 19);
+            this.retryCancel.TabIndex = 3;
+            this.retryCancel.TabStop = true;
+            this.retryCancel.Text = "RetryCancel";
+            this.retryCancel.UseVisualStyleBackColor = true;
+            this.retryCancel.CheckedChanged += new System.EventHandler(this.buttonTyp_CheckedChanged);
+            // 
+            // okCancel
+            // 
+            this.okCancel.AutoSize = true;
+            this.okCancel.Location = new System.Drawing.Point(22, 63);
+            this.okCancel.Name = "okCancel";
+            this.okCancel.Size = new System.Drawing.Size(76, 19);
+            this.okCancel.TabIndex = 2;
+            this.okCancel.TabStop = true;
+            this.okCancel.Text = "OKCancel";
+            this.okCancel.UseVisualStyleBackColor = true;
+            this.okCancel.CheckedChanged += new System.EventHandler(this.buttonTyp_CheckedChanged);
+            // 
+            // abortRetry
+            // 
+            this.abortRetry.AutoSize = true;
+            this.abortRetry.Location = new System.Drawing.Point(22, 88);
+            this.abortRetry.Name = "abortRetry";
+            this.abortRetry.Size = new System.Drawing.Size(116, 19);
+            this.abortRetry.TabIndex = 1;
+            this.abortRetry.TabStop = true;
+            this.abortRetry.Text = "AbortRetryIgnore";
+            this.abortRetry.UseVisualStyleBackColor = true;
+            this.abortRetry.CheckedChanged += new System.EventHandler(this.buttonTyp_CheckedChanged);
+            // 
+            // okButton
+            // 
+            this.okButton.AutoSize = true;
+            this.okButton.Location = new System.Drawing.Point(22, 38);
+            this.okButton.Name = "okButton";
+            this.okButton.Size = new System.Drawing.Size(41, 19);
+            this.okButton.TabIndex = 0;
+            this.okButton.TabStop = true;
+            this.okButton.Text = "OK";
+            this.okButton.UseVisualStyleBackColor = true;
+            this.okButton.CheckedChanged += new System.EventHandler(this.buttonTyp_CheckedChanged);
+            // 
+            // icon
+            // 
+            this.icon.Controls.Add(this.warning);
+            this.icon.Controls.Add(this.stop);
+            this.icon.Controls.Add(this.question);
+            this.icon.Controls.Add(this.info);
+            this.icon.Controls.Add(this.exclamation);
+            this.icon.Controls.Add(this.hand);
+            this.icon.Controls.Add(this.error);
+            this.icon.Controls.Add(this.radioButton7);
+            this.icon.Location = new System.Drawing.Point(624, 40);
+            this.icon.Name = "icon";
+            this.icon.Size = new System.Drawing.Size(219, 359);
+            this.icon.TabIndex = 12;
+            this.icon.TabStop = false;
+            this.icon.Text = "Icon";
+            // 
+            // warning
+            // 
+            this.warning.AutoSize = true;
+            this.warning.Location = new System.Drawing.Point(22, 219);
+            this.warning.Name = "warning";
+            this.warning.Size = new System.Drawing.Size(70, 19);
+            this.warning.TabIndex = 8;
+            this.warning.TabStop = true;
+            this.warning.Text = "Warning";
+            this.warning.UseVisualStyleBackColor = true;
+            this.warning.CheckedChanged += new System.EventHandler(this.icons_Enter);
+            // 
+            // stop
+            // 
+            this.stop.AutoSize = true;
+            this.stop.Location = new System.Drawing.Point(22, 192);
+            this.stop.Name = "stop";
+            this.stop.Size = new System.Drawing.Size(49, 19);
+            this.stop.TabIndex = 7;
+            this.stop.TabStop = true;
+            this.stop.Text = "Stop";
+            this.stop.UseVisualStyleBackColor = true;
+            this.stop.CheckedChanged += new System.EventHandler(this.icons_Enter);
+            // 
+            // question
+            // 
+            this.question.AutoSize = true;
+            this.question.Location = new System.Drawing.Point(22, 167);
+            this.question.Name = "question";
+            this.question.Size = new System.Drawing.Size(73, 19);
+            this.question.TabIndex = 6;
+            this.question.TabStop = true;
+            this.question.Text = "Question";
+            this.question.UseVisualStyleBackColor = true;
+            this.question.CheckedChanged += new System.EventHandler(this.icons_Enter);
+            // 
+            // info
+            // 
+            this.info.AutoSize = true;
+            this.info.Location = new System.Drawing.Point(22, 142);
+            this.info.Name = "info";
+            this.info.Size = new System.Drawing.Size(88, 19);
+            this.info.TabIndex = 5;
+            this.info.TabStop = true;
+            this.info.Text = "Information";
+            this.info.UseVisualStyleBackColor = true;
+            this.info.CheckedChanged += new System.EventHandler(this.icons_Enter);
+            // 
+            // exclamation
+            // 
+            this.exclamation.AutoSize = true;
+            this.exclamation.Location = new System.Drawing.Point(22, 117);
+            this.exclamation.Name = "exclamation";
+            this.exclamation.Size = new System.Drawing.Size(89, 19);
+            this.exclamation.TabIndex = 4;
+            this.exclamation.TabStop = true;
+            this.exclamation.Text = "Exclamation";
+            this.exclamation.UseVisualStyleBackColor = true;
+            this.exclamation.CheckedChanged += new System.EventHandler(this.icons_Enter);
+            // 
+            // hand
+            // 
+            this.hand.AutoSize = true;
+            this.hand.Location = new System.Drawing.Point(22, 90);
+            this.hand.Name = "hand";
+            this.hand.Size = new System.Drawing.Size(54, 19);
+            this.hand.TabIndex = 3;
+            this.hand.TabStop = true;
+            this.hand.Text = "Hand";
+            this.hand.UseVisualStyleBackColor = true;
+            this.hand.CheckedChanged += new System.EventHandler(this.icons_Enter);
+            // 
+            // error
+            // 
+            this.error.AutoSize = true;
+            this.error.Location = new System.Drawing.Point(22, 63);
+            this.error.Name = "error";
+            this.error.Size = new System.Drawing.Size(50, 19);
+            this.error.TabIndex = 2;
+            this.error.TabStop = true;
+            this.error.Text = "Error";
+            this.error.UseVisualStyleBackColor = true;
+            this.error.CheckedChanged += new System.EventHandler(this.icons_Enter);
+            // 
+            // radioButton7
+            // 
+            this.radioButton7.AutoSize = true;
+            this.radioButton7.Location = new System.Drawing.Point(22, 38);
+            this.radioButton7.Name = "radioButton7";
+            this.radioButton7.Size = new System.Drawing.Size(66, 19);
+            this.radioButton7.TabIndex = 1;
+            this.radioButton7.TabStop = true;
+            this.radioButton7.Text = "Asterisk";
+            this.radioButton7.UseVisualStyleBackColor = true;
+            this.radioButton7.CheckedChanged += new System.EventHandler(this.icons_Enter);
+            // 
+            // displayB
+            // 
+            this.displayB.Location = new System.Drawing.Point(423, 339);
+            this.displayB.Name = "displayB";
+            this.displayB.Size = new System.Drawing.Size(157, 60);
+            this.displayB.TabIndex = 13;
+            this.displayB.Text = "Display";
+            this.displayB.UseVisualStyleBackColor = true;
+            this.displayB.Click += new System.EventHandler(this.displayB_Click);
+            // 
+            // displayLabel
+            // 
+            this.displayLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.displayLabel.Location = new System.Drawing.Point(420, 402);
+            this.displayLabel.Name = "displayLabel";
+            this.displayLabel.Size = new System.Drawing.Size(245, 32);
+            this.displayLabel.TabIndex = 14;
+            // 
             // SimpleEventExample
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(361, 637);
+            this.ClientSize = new System.Drawing.Size(966, 637);
+            this.Controls.Add(this.displayLabel);
+            this.Controls.Add(this.displayB);
+            this.Controls.Add(this.icon);
+            this.Controls.Add(this.buttonType);
             this.Controls.Add(this.italicCheck);
             this.Controls.Add(this.boldCheck);
             this.Controls.Add(this.outputLabel);
@@ -230,6 +472,10 @@
             this.Name = "SimpleEventExample";
             this.Text = "Form1";
             this.groupBox1.ResumeLayout(false);
+            this.buttonType.ResumeLayout(false);
+            this.buttonType.PerformLayout();
+            this.icon.ResumeLayout(false);
+            this.icon.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -252,6 +498,24 @@
         private System.Windows.Forms.Label outputLabel;
         private System.Windows.Forms.CheckBox boldCheck;
         private System.Windows.Forms.CheckBox italicCheck;
+        private System.Windows.Forms.GroupBox buttonType;
+        private System.Windows.Forms.RadioButton yesNoCancel;
+        private System.Windows.Forms.RadioButton yesNo;
+        private System.Windows.Forms.RadioButton retryCancel;
+        private System.Windows.Forms.RadioButton okCancel;
+        private System.Windows.Forms.RadioButton abortRetry;
+        private System.Windows.Forms.RadioButton okButton;
+        private System.Windows.Forms.GroupBox icon;
+        private System.Windows.Forms.RadioButton warning;
+        private System.Windows.Forms.RadioButton stop;
+        private System.Windows.Forms.RadioButton question;
+        private System.Windows.Forms.RadioButton info;
+        private System.Windows.Forms.RadioButton exclamation;
+        private System.Windows.Forms.RadioButton hand;
+        private System.Windows.Forms.RadioButton error;
+        private System.Windows.Forms.RadioButton radioButton7;
+        private System.Windows.Forms.Button displayB;
+        private System.Windows.Forms.Label displayLabel;
     }
 }
 
